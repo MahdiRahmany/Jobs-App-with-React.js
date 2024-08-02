@@ -125,20 +125,6 @@
         "contactEmail": "test@example.us",
         "contactPhone": "6019521325"
       }
-    },
-    {
-      "id": "6f70",
-      "title": "gdfgdg",
-      "type": "Full-Time",
-      "location": "gdfgdfg",
-      "description": "dfgdfg",
-      "salary": "Under $50K",
-      "company": {
-        "name": "Google",
-        "description": "fdgdfg",
-        "contactEmail": "test@example.us",
-        "contactPhone": "6019521325"
-      }
     }
   ]
 }
