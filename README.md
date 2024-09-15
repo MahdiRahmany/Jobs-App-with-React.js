@@ -8,4 +8,19 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # Jobs-App-with-React.js
 
+<<<<<<< HEAD
 <br>
+=======
+
+
+## The first time install npm
+```bash
+npm install
+```
+
+## then run server
+
+```bash
+json-server --watch src/jobs.json --port 8000
+```
+>>>>>>> b6e875c59ebb30a3ab0f2a1a0fecffad3fab2bd2
