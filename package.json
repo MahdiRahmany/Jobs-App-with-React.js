@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "server": "json-server --watch src/jobs.json --port 8000",
-    "build": "npm run copy-jobs && vite build",
+    "build": "concurrently \"npm run copy-jobs\" \"react-scripts build\"",
     "copy-jobs": "cp ./jobs.json ./public/",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
